@@ -1,0 +1,24 @@
+{
+  "name": "primenumbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "mocha"
+  },
+  "author": "Emilio Urriola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.2"
+  },
+  "mocha": {
+    "recursive": true,
+    "exit": true
+  }
+}
